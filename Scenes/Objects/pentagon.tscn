@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dqd3yhuppopwh"]
+
+[ext_resource type="Script" uid="uid://dnuohigf4suv0" path="res://Scripts/shape.gd" id="1_73kbq"]
+[ext_resource type="Texture2D" uid="uid://dv1604wcvx4yq" path="res://Assets/Sprites/Pentagon.png" id="2_33ag6"]
+
+[node name="Pentagon" type="Area2D" unique_id=1698087137]
+script = ExtResource("1_73kbq")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2005951095]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_33ag6")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1965352731]
+polygon = PackedVector2Array(-62, -50, -52, -49, -95, -11, -58, 96, 58, 94, 95, -10, 50, -49, 62, -49, 103, -11, 63, 102, -64, 101, -103, -13)

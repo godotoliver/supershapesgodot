@@ -1,0 +1,7 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://b5hoppd53dli2"]
+
+[ext_resource type="FontFile" uid="uid://cfacfb2j33wnl" path="res://Themes and Fonts/droid.ttf" id="1_ee07b"]
+
+[resource]
+font = ExtResource("1_ee07b")
+font_size = 39

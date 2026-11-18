@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cl0gvo062e4kp"]
+
+[ext_resource type="Script" uid="uid://dnuohigf4suv0" path="res://Scripts/shape.gd" id="1_4qemh"]
+[ext_resource type="Texture2D" uid="uid://70vqjsok7716" path="res://Assets/Sprites/3 Sides.png" id="1_cuwtm"]
+
+[node name="3Sides" type="Area2D" unique_id=347642502]
+script = ExtResource("1_4qemh")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1808286910]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_cuwtm")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=142063612]
+polygon = PackedVector2Array(-36, -58, -21, -58, -59, 8, -73, 8)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." unique_id=1392942739]
+position = Vector2(134, -1)
+polygon = PackedVector2Array(-112, -57, -97, -57, -60, 9, -74, 9)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." unique_id=1773349054]
+position = Vector2(102, 65)
+polygon = PackedVector2Array(-142, -12, -142, -25, -61, -25, -61, -12)

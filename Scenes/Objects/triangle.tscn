@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cwbdwu5hg1gdw"]
+
+[ext_resource type="Script" uid="uid://dnuohigf4suv0" path="res://Scripts/shape.gd" id="1_4o401"]
+[ext_resource type="Texture2D" uid="uid://ca0ntfflxpj7l" path="res://Assets/Sprites/Triangle.png" id="2_3rl1d"]
+
+[node name="Triangle" type="Area2D" unique_id=528681727]
+script = ExtResource("1_4o401")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=187433372]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_3rl1d")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=949241770]
+polygon = PackedVector2Array(-37, -24, -22, -24, -78, 72, 78, 73, 22, -24, 36, -24, 100, 85, -100, 86, -64, 23)

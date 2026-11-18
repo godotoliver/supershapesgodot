@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dbbx6tqqk4cee"]
+
+[ext_resource type="Script" uid="uid://dnuohigf4suv0" path="res://Scripts/shape.gd" id="1_x8img"]
+[ext_resource type="Texture2D" uid="uid://olo1s6ttdtyk" path="res://Assets/Sprites/Hexagon.png" id="2_nnd46"]
+
+[node name="Hexagon" type="Area2D" unique_id=360333600]
+script = ExtResource("1_x8img")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=425667053]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_nnd46")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=703734498]
+polygon = PackedVector2Array(61, -59, 66, -59, 100, 0, 50, 87, -50, 87, -100, 0, -65, -59, -61, -59, -95, 0, -47, 83, 47, 82, 95, 0)

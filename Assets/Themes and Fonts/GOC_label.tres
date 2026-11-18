@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://cab4elxepiplw"]
+
+[ext_resource type="FontFile" uid="uid://cfacfb2j33wnl" path="res://Themes and Fonts/droid.ttf" id="1_lehfb"]
+
+[resource]
+font = ExtResource("1_lehfb")
+font_size = 60
+font_color = Color(0.196078, 0.196078, 0.196078, 1)

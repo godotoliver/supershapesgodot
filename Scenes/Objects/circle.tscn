@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://by0cen5ijhfnj"]
+
+[ext_resource type="Script" uid="uid://dnuohigf4suv0" path="res://Scripts/shape.gd" id="1_mwtew"]
+[ext_resource type="Texture2D" uid="uid://dm8d35tpeper2" path="res://Assets/PYSprites/Circle.png" id="2_jhovm"]
+
+[node name="Circle" type="Area2D" unique_id=96393982]
+script = ExtResource("1_mwtew")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1630149569]
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("2_jhovm")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=231850048]
+scale = Vector2(0.4, 0.4)
+polygon = PackedVector2Array(-146, -137, -84, -138, -142, -73, -159, 9, -131, 93, -61, 148, -3, 160, 59, 150, 119, 107, 159, 14, 142, -68, 81, -139, 150, -134, 197, -46, 186, 72, 122, 156, 8, 201, -122, 157, -187, 65, -200, -35)
